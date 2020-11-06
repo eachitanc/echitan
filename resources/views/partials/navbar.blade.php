@@ -1,5 +1,5 @@
 <!--Navbar -->
-<nav class="mb-3 navbar navbar-expand-lg navbar-dark info-color">
+<nav class="navbar navbar-expand-lg navbar-dark info-color">
     <a class="navbar-brand" href="{{url('/')}}">Hotel La Rivera</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
         aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">

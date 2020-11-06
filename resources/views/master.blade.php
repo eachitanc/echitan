@@ -18,12 +18,13 @@
         <!-- Your custom styles (optional) -->
         <link rel="stylesheet" href="{{ url('/assets/mdbootstrap/css/style.css') }}">
     </head>
-    <body>
+    <body style="background-color:lavender;">
         @include('navegation')
         <br>
-        <div class="container">
+        <div>
             @yield('content')
         </div>
+        @include('pie')
         <!-- jQuery -->
         <script type="text/javascript" src="{{ url('/assets/mdbootstrap/js/jquery.min.js') }}"></script>
         <!-- Bootstrap tooltips -->
@@ -33,6 +34,6 @@
         <!-- MDB core JavaScript -->
         <script type="text/javascript" src="{{ url('/assets/mdbootstrap/js/mdb.min.js') }}"></script>
         <!-- Your custom scripts (optional) -->
-        <script type="text/javascript"></script>
+        <script type="text/javascript" src="{{ url('/assets/mdbootstrap/js/mystyle.js') }}"></script>
     </body>
 </html>
