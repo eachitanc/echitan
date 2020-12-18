@@ -26,14 +26,32 @@
                     <a class="dropdown-item" href="{{url('servicios/eventos')}}">Eventos</a>
                 </div>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-child fa-lg purple-text pr-3"></i> Clientes </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                    <a class="dropdown-item" href="{{url('clientes/visualizar')}}">Vizualizar</a>
+                </div>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{url('contactos')}}"> 
+                <a class="nav-link" href="{{url('facturacion')}}"> 
+                    <i class="fas fa-file-invoice-dollar fa-lg blue-grey-text pr-3"></i>Facturación
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{url('contáctenos')}}"> 
                     <i class="fas fa-phone-square-alt fa-lg green-text pr-3"></i>Contactos
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{url('reservas')}}">
                     <i class="fas fa-calendar-alt fa-lg indigo-text pr-3"></i> Reservas
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{url('consultas')}}">
+                    <i class="fas fa-search fa-lg green-grey-text pr-3"></i>
                 </a>
             </li>
         </ul>
